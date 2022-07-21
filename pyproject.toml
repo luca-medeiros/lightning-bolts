@@ -142,5 +142,6 @@ module = [
     "pl_bolts.transforms.dataset_normalizations",
     "pl_bolts.transforms.self_supervised.ssl_transforms",
     "pl_bolts.utils.arguments",
+    "pl_bolts.utils.stability"
 ]
 ignore_errors = "True"
