@@ -22,7 +22,7 @@ test: clean env
 	python -m coverage report
 
 docs: clean
-	pip install --quiet -r docs/requirements.txt
+	pip install --quiet -r requirements/docs.txt
 	python -m sphinx -b html -W docs/source docs/build
 
 env:
